@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Craft | Café Website (HTML Only)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Coffee Craft Café – a cozy neighborhood café in Hyderabad serving freshly brewed coffee, handmade bakes, and a warm workspace. View our menu, specials, gallery, timings, and contact details.">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Coffee Craft Café</h1>
+    <p>Fresh Coffee • Warm Atmosphere • Cozy Workspaces</p>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#specials">Specials</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#visit">Visit Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <hr>
+  </header>
+
+  <!-- HOME / HERO SECTION -->
+  <main id="home">
+    <section>
+      <h2>Welcome to Coffee Craft</h2>
+
+      <!-- HERO IMAGE WITH TEXT NEXT TO IT (TABLE FOR LAYOUT SINCE NO CSS) -->
+      <table>
+        <tr>
+          <td>
+            <p>
+              Coffee Craft is your neighborhood café designed for long conversations,
+              quiet work sessions and relaxed mornings. We serve freshly brewed coffee,
+              handcrafted drinks and a small menu of bakes made with care.
+            </p>
+            <p>
+              Whether you are here for a quick espresso or a full afternoon with
+              your laptop, we aim to give you a calm, comfortable space with
+              friendly service.
+            </p>
+            <p>
+              <strong>Opening hours:</strong> 8:00 AM – 10:00 PM (All days)
+            </p>
+          </td>
+          <td>
+            <!-- MAIN HERO IMAGE -->
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+                alt="Barista making coffee behind the counter"
+                width="350">
+              <figcaption>Our baristas crafting your favorite coffee.</figcaption>
+            </figure>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- MENU SECTION -->
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <p>A short selection of our most loved items.</p>
+
+      <!-- MENU IMAGE -->
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+          alt="Cups of coffee on a wooden table"
+          width="500">
+        <figcaption>Classic coffees served throughout the day.</figcaption>
+      </figure>
+
+      <h3>Coffee</h3>
+      <table border="1" cellpadding="6" cellspacing="0">
+        <tr>
+          <th>Drink</th>
+          <th>Description</th>
+          <th>Price (₹)</th>
+        </tr>
+        <tr>
+          <td>Espresso</td>
+          <td>Strong single shot of freshly brewed coffee.</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>Cappuccino</td>
+          <td>Espresso with steamed milk and foam.</td>
+          <td>180</td>
+        </tr>
+        <tr>
+          <td>Latte</td>
+          <td>Smooth espresso with more milk and a light foam layer.</td>
+          <td>190</td>
+        </tr>
+        <tr>
+          <td>Iced Caramel Latte</td>
+          <td>Cold espresso with caramel, milk and ice.</td>
+          <td>220</td>
+        </tr>
+        <tr>
+          <td>Cold Brew</td>
+          <td>Slow-brewed for 18 hours, naturally smooth.</td>
+          <td>200</td>
+        </tr>
+      </table>
+
+      <h3>Snacks & Bakes</h3>
+      <ul>
+        <li>Almond Croissant – ₹130</li>
+        <li>Chocolate Brownie – ₹110</li>
+        <li>Cheese Sandwich – ₹120</li>
+        <li>Garlic Bread – ₹70</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- DAILY SPECIALS SECTION (NEW FORMAT) -->
+    <section id="specials">
+      <h2>Today’s Specials</h2>
+
+      <table>
+        <tr>
+          <td>
+            <h3>Hazelnut Mocha</h3>
+            <p>
+              A rich blend of espresso, chocolate and hazelnut syrup topped with
+              whipped cream. Perfect for a slow evening.
+            </p>
+            <p><strong>Special Price:</strong> ₹240</p>
+          </td>
+          <td>
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=800&q=80"
+                alt="Mocha coffee drink in a glass"
+                width="320">
+              <figcaption>Hazelnut Mocha – limited time special.</figcaption>
+            </figure>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <h3>Cinnamon Roll & Coffee Combo</h3>
+            <p>
+              Freshly baked cinnamon roll served with any hot coffee of your choice.
+            </p>
+            <p><strong>Combo Price:</strong> ₹260</p>
+          </td>
+          <td>
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=800&q=80"
+                alt="Cinnamon roll on a plate with coffee"
+                width="320">
+              <figcaption>Cinnamon roll combo for sweet snack lovers.</figcaption>
+            </figure>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- GALLERY SECTION (MULTI-IMAGE FORMAT) -->
+    <section id="gallery">
+      <h2>Café Gallery</h2>
+      <p>Get a feel of our space before you visit.</p>
+
+      <table>
+        <tr>
+          <td>
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+                alt="Interior shot of cozy café"
+                width="260">
+              <figcaption>Cozy seating area suitable for work and reading.</figcaption>
+            </figure>
+          </td>
+          <td>
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80"
+                alt="Coffee beans in a bag"
+                width="260">
+              <figcaption>Carefully sourced coffee beans.</figcaption>
+            </figure>
+          </td>
+          <td>
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80"
+                alt="Coffee served on a tray"
+                width="260">
+              <figcaption>Serving with attention to detail.</figcaption>
+            </figure>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- VISIT US SECTION (NEW LAYOUT) -->
+    <section id="visit">
+      <h2>Visit Coffee Craft</h2>
+
+      <table>
+        <tr>
+          <td>
+            <h3>Location</h3>
+            <p>
+              Coffee Craft Café<br>
+              21 Brew Street,<br>
+              Coffee Lane,<br>
+              Hyderabad, India
+            </p>
+
+            <h3>Timings</h3>
+            <ul>
+              <li>Monday – Friday: 8:00 AM to 10:00 PM</li>
+              <li>Saturday – Sunday: 9:00 AM to 11:00 PM</li>
+            </ul>
+
+            <h3>Good to Know</h3>
+            <ul>
+              <li>Free Wi-Fi</li>
+              <li>Charging points near most tables</li>
+              <li>Quiet corners for study and work</li>
+              <li>Takeaway and limited delivery options</li>
+            </ul>
+          </td>
+          <td>
+            <!-- MAP PLACEHOLDER IMAGE -->
+            <figure>
+              <img
+                src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80"
+                alt="Top view of a city map with coffee"
+                width="350">
+              <figcaption>We are located in the heart of the city.</figcaption>
+            </figure>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+
+      <h3>Reach us</h3>
+      <ul>
+        <li><strong>Phone:</strong> +91 98765 43210</li>
+        <li><strong>Email:</strong> hello@coffeecraft.com</li>
+        <li><strong>Instagram:</strong> @coffeecraftcafe (example)</li>
+      </ul>
+
+      <h3>Send a Message</h3>
+      <p>Use the form below to send us a message. We’ll get back to you shortly.</p>
+
+      <!-- NETLIFY FORM VERSION -->
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <!-- Hidden form-name field required by Netlify -->
+        <input type="hidden" name="form-name" value="contact">
+
+        <!-- Honeypot field for bots (hidden via inline style) -->
+        <p style="display:none;">
+          <label>Don’t fill this out if you’re human:
+            <input name="bot-field">
+          </label>
+        </p>
+
+        <p>
+          <label for="name">Name:</label><br>
+          <input id="name" type="text" name="name" placeholder="Your name" required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br>
+          <input id="email" type="email" name="email" placeholder="you@example.com" required>
+        </p>
+
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="40"
+            placeholder="I’d like to ask about..."></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Send Message</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <hr>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Coffee Craft Café · Sample professional website layout using only HTML.</p>
+  </footer>
+
+</body>
+</html>
